@@ -15,7 +15,7 @@ public class SpringBootRestTestClient {
     /* GET */
     @SuppressWarnings("unchecked")
     private static void listAllUsers(){
-        System.out.println("Testing listAllUsers API-------v--2222--");
+        System.out.println("Testing listAllUsers API-------v--2ffff222--");
           
         RestTemplate restTemplate = new RestTemplate();
         List<LinkedHashMap<String, Object>> usersMap = restTemplate.getForObject(REST_SERVICE_URI+"/user/", List.class);
